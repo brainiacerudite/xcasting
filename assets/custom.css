@@ -1,0 +1,121 @@
+.root-wrapper {
+  padding: 15px !important;
+  width: 33.3333333%;
+}
+
+.pricing-item {
+  background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 100%;
+}
+.pricing-item .pricing-item-wrapper {
+  padding: 0px !important;
+}
+.pricing-item .pricing-item-header {
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px !important;
+  border-radius: 16px 16px 0px 0px;
+  background: #f1b5b83a !important;
+}
+.pricing-item .pricing-item-header h3 {
+  font-weight: 700 !important;
+  margin-bottom: 0px !important;
+}
+.pricing-item .pricing-item-price {
+  margin: 20px auto 0;
+  font-weight: 700;
+  font-size: 3.75rem;
+}
+.pricing-item .pricing-item-listing {
+  margin: 36px auto 0;
+}
+.pricing-item .pricing-item-button {
+  margin: 40px auto 40px;
+  text-transform: uppercase;
+}
+
+.customer-section {
+  padding-top: 60px;
+}
+.customer-section .address-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.customer-section .custom-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+.customer-section .address-item {
+  margin-bottom: 15px;
+  padding: 25px 30px;
+  text-align: left;
+  background-color: #f7f7f7;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 425px;
+}
+.customer-section .media .feature-box-title {
+  text-transform: none;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 2px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.d-flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-around;
+}
+.w-full {
+  width: 100%;
+}
+.customer-section .map-container {
+  width: 100%;
+  height: 450px;
+}
+.customer-section .map-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.breadcrumb-section {
+  background-color: #f1b5b82e;
+  padding: 60px 20px;
+  text-align: center;
+}
+.breadcrumb-section h1 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .customer-section .custom-section-wrapper {
+    flex-wrap: nowrap;
+    padding: 0px 30px;
+  }
+  .customer-section .address-wrapper {
+    padding: 0px;
+  }
+  .customer-section .address-item {
+    max-width: 625px;
+  }
+  .customer-section .map-container {
+    height: 600px;
+  }
+  .breadcrumb-section {
+    padding: 120px 20px;
+  }
+}
